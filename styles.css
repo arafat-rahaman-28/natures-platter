@@ -39,6 +39,9 @@
     );
 }
 
+/* SERVICES */
+
+/* MEDIA QUERY */
 @media (width >= 1280px) {
     .hamburger {
         display: none;
