@@ -21,29 +21,39 @@
         <title>Nature's Platter</title>
     </head>
     <body>
-        <header>
+        <header class="">
             <nav
-                class="flex justify-between items-center py-3 px-6 lg:flex lg:justify-between border-b-[1px] border-b-[#179800]"
+                class="flex justify-between items-center py-3 px-6 lg:flex lg:justify-between border-b-[1px] border-b-[#179800] lg:max-w-[1280px] lg:my-0 lg:mx-auto lg:border-0"
             >
                 <div class="logo">
                     <img
-                        class="w-[100px]"
+                        class="w-[100px] lg:w-[152px]"
                         src="assets/logo-header.png"
                         alt=""
                     />
                 </div>
-                <div class="nav-links hidden">
-                    <ul>
+                <div class="nav-links hidden lg:block">
+                    <ul class="lg:flex lg:gap-8 sora-font text-xl text-black">
                         <li><a href="">Product</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="nav-buttons hidden">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <button>Login</button>
-                    <button>Register</button>
+                <div
+                    class="nav-buttons hidden lg:flex lg:items-center lg:gap-3"
+                >
+                    <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                    <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                    <button
+                        class="bg-white border-[1px] border-[#179800] rounded-[8px] px-[30px] py-[10px] sora-font text-xl"
+                    >
+                        Login
+                    </button>
+                    <button
+                        class="bg-[#179800] border-[1px] rounded-[8px] px-[30px] py-[10px] sora-font text-xl text-white font-[400px]"
+                    >
+                        Register
+                    </button>
                 </div>
                 <div class="hamburger">
                     <div></div>
