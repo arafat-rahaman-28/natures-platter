@@ -42,7 +42,8 @@
 /* POPULAR PRODUCT SECTION */
 .veg-offer-card {
     width: 100%;
-    height: 340px;
+    height: 100%;
+    min-height: 340px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -84,9 +85,18 @@
     right: 10px;
     height: 230px;
 }
+.price-card-container {
+    min-height: 340px;
+}
 /* MEDIA QUERY */
 @media (width >= 1280px) {
     .hamburger {
+        display: none;
+    }
+}
+
+@media (width <= 1280px) {
+    .hide-on-phone {
         display: none;
     }
 }
