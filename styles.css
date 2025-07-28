@@ -88,6 +88,11 @@
 .price-card-container {
     min-height: 340px;
 }
+
+/* ARRIVAL OFFER CARD */
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
 /* MEDIA QUERY */
 @media (width >= 1280px) {
     .hamburger {
@@ -96,7 +101,7 @@
 }
 
 @media (width <= 1280px) {
-    .hide-on-phone {
+    #hide-on-phone {
         display: none;
     }
 }
